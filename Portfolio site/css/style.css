@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-image: url(../img/back-img.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+    height: 885px;
+    position: relative;
+    margin-top: -30px;
+}
+
+.bgcolor.scrolled .pre-header{
+    background-color: #2b2e4a;
+    padding: 18px 0;
+}
+
+.pre-header ul li.scrolled{
+    color: #e84545;
+}
+
+.pre-header{
+    display: flex;
+    color: #fff;
+    padding: 30px 0;
+    border-color: rgba(255,255,255,0.1);
+    border-style: solid;
+    background-color: transparent;
+    border-width: 0 0 1px;
+}
+
+.pre-header h3{
+    margin-bottom: 0;
+}
+
+.pre-header ul{
+    float: right;
+    margin-bottom: 0;
+    height: auto;
+    font-weight: 500 !important;
+    font-family: 'Open Sans',Arial,sans-serif;
+    margin-right: 40px;
+    padding-top: 9px;
+}
+
+.pre-header ul li{
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+
+.pre-header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+.pre-header ul li .fa-bars{
+    display: none;
+}
+
+.after-header{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    top: 30%;
+    position: relative;
+}
+
+.after-header h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 70px;
+    text-shadow: 2px 2px 3px #000;
+    margin-bottom: 50px;
+}
+
+.after-header h1 span{
+    color: rgb(232, 69, 69);
+}
+
+.after-header .services{
+    padding: 5px 0;
+    color: #fff;
+    margin: auto;
+    width: 100%;
+}
+
+.after-header .services p{
+    font-size: 30px;
+}
+
+.after-header .services{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+
+section .about-me h3{
+    padding: 10px 0;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+section .about-me .border{
+    height: 5px;
+    background-color: #e84545;
+    margin: auto;
+    width: 7%;
+}
+
+section .about-me .description-img{
+    display: flex;
+    margin-top: 60px;
+    padding-bottom: 180px;
+}
+
+section .about-me .description p{
+    font-size: 18px;
+    line-height: 29px;
+    font-family: sans-serif;
+}
+
+section .about-me .description p a{
+    color: #e84545;
+    text-decoration: none;
+}
+
+section .about-me .about-me-img{
+    background-image: url(../img/about-me-img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px 60px;
+    border-radius: 10px;
+}
+
+.my-services{
+    background-color: #53354a;
+    padding-top: 80px;
+}
+
+.my-services h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.border-line{
+    height: 3px;
+    background-color: #e84545;
+    margin: auto;
+    width: 5%;
+    border: 0px;
+}
+
+.my-skills{
+    display: flex;
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.service-item .web-skills{
+    position: relative;
+    display: block;
+}
+
+.my-services .my-skills .fa-stack{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 2em;
+    line-height: 2em; 
+    margin-left: 30%;
+}
+
+.img-circle {
+    border-radius: 50%;
+} 
+
+.my-services .my-skills .web-skills h4{
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.my-services .my-skills .web-skills p{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.contact-page h3{
+    padding: 10px 0;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.contact-page .content{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contact-page .content .location-div p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.contact-page .content .location-div i a{
+    font-size: 20px;
+    color: #e84545;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.contact-page .content .location-div  i{
+    margin-left: 100px;
+    color: #e84545;
+}
+
+.input-area{
+    margin-left: 150px;
+}
+
+.input-area .form-group input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid  #2b2e4a;
+}
+
+.input-area .form-group textarea{
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: 1px solid  #2b2e4a;
+}
+
+.input-area .form-group button{
+    text-align: center;
+    width: 100%;
+    background-color: #e84545;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 0;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 70px;
+    background-color: #333333;
+}
+
+footer h5{
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .about-me-img{
+       display: none;        
+    }
+
+    section .about-me .description-img{
+        padding-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .pre-header .nav-item1{
+        display: none;
+    }
+
+    .pre-header ul li .fa-bars{
+        display: block;
+        float: right;
+      }
+
+    .pre-header.responsive {position: relative;}
+    .pre-header.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .pre-header.responsive .nav-item1 {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pre-header.responsive ul{
+          width: 100%;
+          margin-right: 0;
+    }
+
+    .pre-header.responsive{
+        background-color: #2b2e4a;
+    }
+
+    .pre-header.responsive{
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+    }
+
+
+    .my-services{
+        padding-top: 20px;
+    }
+
+    .my-services .my-skills{
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+    }
+
+    .my-services .my-skills .web-skills span{
+        margin-left: 33%;
+    }
+
+    .contact-page .content .location-div{
+        width: 100%;
+    }
+
+    .contact-page .content .location-div p{
+        text-align: center;
+    }
+
+    .contact-page .content .location-div  i{
+        margin-left: 80px;
+        padding-bottom: 40px;
+        
+    }
+
+    .content{
+        width: 100%;
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .input-area{
+        margin-left: 0;
+    }
+
+    .contact-page h3{
+        margin-top: 20px;
+    }
+
+    .after-header h1{
+        font-size: 40px;
+    }
+
+    .after-header .services p{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .after-header .services{
+        padding-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 760px){
+    
+    section .about-me .description-img{
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+        padding-bottom: 80px;
+        margin-top: 30px;
+    }
+    .pre-header .nav-item1{
+        display: none;
+    }
+
+    .pre-header ul li .fa-bars{
+        display: block;
+        float: right;
+      }
+
+    .pre-header.responsive {position: relative;}
+    .pre-header.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .pre-header.responsive .nav-item1 {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pre-header.responsive ul{
+          width: 100%;
+          margin-right: 0;
+    }
+
+    .pre-header.responsive{
+        background-color: #2b2e4a;
+    }
+
+    .pre-header.responsive{
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+    }
+
+    section .about-me .about-me-img{
+        position: relative;
+        height: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .my-services{
+        padding-top: 20px;
+    }
+
+    .my-services .my-skills{
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+    }
+
+    .my-services .my-skills .web-skills span{
+        margin-left: 33%;
+    }
+
+    .pre-header .nav-item1{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+        display: flex; 
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .input-area{
+        margin-left: 0;
+    }
+
+    .contact-page h3{
+        margin-top: 20px;
+    }
+
+    .after-header h1{
+        font-size: 40px;
+    }
+
+    .after-header .services p{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    .after-header .services{
+        padding-top: 5px;
+    }
+
+    .contact-page .content .location-div  i{
+        margin-left: 80px;
+        padding-bottom: 40px;
+        
+    }
+    
+}
